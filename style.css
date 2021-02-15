@@ -1,0 +1,157 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: #202124;    
+}
+
+a:link, a:visited {  
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-family: arial,sans-serif;
+    padding-left: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    line-height: 24px;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 16px;
+    margin-right: 27px; 
+}
+.right {
+    margin-left: auto;
+    display: flex;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 13px;
+}
+.left {
+    font-size: 14px;
+}
+#icon {
+    height: 20px;
+    width: 20px;
+    opacity: .55;
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#icon:hover{
+    height: 20px;
+    width: 20px;
+    opacity: 100;
+}
+
+#photo {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+main{
+        position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    height: 92px;
+    align-self: center;
+}
+
+
+#searchbox {
+    display:flex;
+    justify-content: space-between;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;;
+    padding: 3px;
+    margin: 20px;
+}
+#mag{
+    height: 15px;
+    width: auto;
+    padding: 12px 10px 8px 10px;
+}
+
+#mic{
+    height: 20px;
+    width: auto;
+    padding: 10px;
+}
+#searchbox input{
+    border: transparent;
+    height: 34px;
+    width: 487px;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+}
+
+#button button {
+    padding: 18px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+   
+    
+}
+#button button:hover {
+    border: 1px solid #dadce0;;
+}
+
+
+
+#footer {
+    background-color: #f2f2f2; 
+    color:rgba(0,0,0,0.87);
+    font-size: 14px;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+    font-family: arial,sans-serif;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.fright { 
+        padding-right: 40px; 
+}
+.fleft { 
+    padding-left: 20px;
+    }
+.fcenter {
+        display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+#leaf {
+    height: 14px; 
+}
